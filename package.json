@@ -9,13 +9,6 @@
   "bin": {
     "wait-for-path": "./cli/cli.js"
   },
-  "scripts": {
-    "test": "jest --runInBand",
-    "lint": "eslint src --max-warnings=0",
-    "build:cli": "shx rm -rf ./cli && tsc --project tsconfig.cli.json && shx chmod +x ./cli/cli.js",
-    "build:lib": "shx rm -rf ./lib && tsc --project tsconfig.lib.json",
-    "build": "npm run build:cli && npm run build:lib"
-  },
   "files": [
     "cli",
     "lib"
