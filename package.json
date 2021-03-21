@@ -4,8 +4,7 @@
   "description": "Efficiently wait for a path to exist (cross-platform).",
   "author": "Braden Snell",
   "license": "MIT",
-  "main": "lib/waitForPath.js",
-  "types": "lib/waitForPath.d.ts",
+  "main": "src/waitForPath.ts",
   "homepage": "https://github.com/bradenhs/wait-for-path",
   "bin": {
     "wait-for-path": "./cli/cli.js"
