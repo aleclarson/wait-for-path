@@ -6,10 +6,6 @@
   "license": "MIT",
   "main": "src/waitForPath.ts",
   "homepage": "https://github.com/bradenhs/wait-for-path",
-  "files": [
-    "cli",
-    "lib"
-  ],
   "devDependencies": {
     "@types/fs-extra": "^9.0.1",
     "@types/node": "^14.10.1",
